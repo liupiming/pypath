@@ -46,7 +46,9 @@ def sort(a, N, up):
 if __name__ == "__main__":
 
     a = []
-
+    # first param is number of List
+    # 
+    # python bitonic.py "5" "1" "55" "12" "3" "5"
     n = int(input().strip())
     for i in range(n):
         a.append(int(input().strip()))
